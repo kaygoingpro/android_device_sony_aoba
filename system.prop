@@ -1,5 +1,12 @@
+# RIL
+persist.radio.add_power_save=1
+rild.libpath=/system/lib/libril-qc-qmi-1.so
+rild.libargs=-d /dev/smd0
+ro.com.google.clientidbase.ms=android-sonymobile
+ro.com.google.clientidbase=android-sonyericsson
+
 # Graphics
-ro.sf.lcd_density=320
+ro.sf.lcd_density=240
 
 # HDMI
 ro.hdmi.enable=true
