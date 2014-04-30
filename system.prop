@@ -1,0 +1,5 @@
+# Graphics
+ro.sf.lcd_density=320
+
+# HDMI
+ro.hdmi.enable=true

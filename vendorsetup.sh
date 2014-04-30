@@ -1,0 +1,3 @@
+add_lunch_combo full_aoba-eng
+add_lunch_combo full_aoba-userdebug
+add_lunch_combo full_aoba-codefirex
