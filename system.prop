@@ -1,9 +1,12 @@
 # RIL
-persist.radio.add_power_save=1
-rild.libpath=/system/lib/libril-qc-qmi-1.so
-rild.libargs=-d /dev/smd0
-ro.com.google.clientidbase.ms=android-sonymobile
+rild.libpath=/system/lib/libril-qc-qmi-1.so 
+rild.libargs=-d /dev/smd0 
+persist.radio.add_power_save=1 
 ro.com.google.clientidbase=android-sonyericsson
+ro.com.google.clientidbase.ms=android-sonymobile 
+ro.telephony.default_network=9 
+telephony.lteOnCdmaDevice=0 
+ro.com.android.dataroaming=false
 
 # Graphics
 ro.sf.lcd_density=240
