@@ -23,7 +23,7 @@ USE_CAMERA_STUB := true
 -include device/sony/fuji-common/BoardConfigCommon.mk
 
 # KERNEL
-TARGET_KERNEL_CONFIG := opensemc_fuji_aoba_defconfig
+TARGET_KERNEL_CONFIG := fuji_aoba_defconfig
 
 # Sony-supplied broadcom wlan module
 BOARD_WLAN_BROADCOM := true
