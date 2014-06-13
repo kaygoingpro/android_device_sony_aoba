@@ -44,6 +44,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/config/fstab.semc:root/fstab.semc
 
+# Sony Apps
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.com.google.clientidbase=android-sonyericsson \
+    ro.com.google.clientidbase.ms=android-sonymobile
+
 # Device specific part for two-stage boot
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/recovery/bootrec-device:recovery/bootrec-device
@@ -71,3 +76,4 @@ $(call inherit-product-if-exists, vendor/sony/aoba/aoba-vendor.mk)
 # Wifi
 BOARD_WLAN_DEVICE_REV := bcm4330_b2
 WIFI_BAND             := 802_11_ABG
+
