@@ -76,4 +76,3 @@ $(call inherit-product-if-exists, vendor/sony/aoba/aoba-vendor.mk)
 # Wifi
 BOARD_WLAN_DEVICE_REV := bcm4330_b2
 WIFI_BAND             := 802_11_ABG
-
